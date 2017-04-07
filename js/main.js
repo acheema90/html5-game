@@ -341,7 +341,7 @@ PlayState._spawnEnemyWall = function (x, y, side) {
 };
 
 window.onload = function(){
-	let game = new Phaser.Game(1200, 800, Phaser.AUTO, 'game');
+	let game = new Phaser.Game(900, 600, Phaser.AUTO, 'game');
 	game.state.add('play', PlayState);
 	game.state.start('play', true, false, {level: 0});
 };
